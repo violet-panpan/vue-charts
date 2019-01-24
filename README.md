@@ -3,10 +3,11 @@
 <h2>安装</h2>
 npm i v-charts echarts -S
 <h2>main.js</h2>
-  import VCharts from 'v-charts'
-  Vue.use(VCharts);
+import VCharts from 'v-charts'
+Vue.use(VCharts);
 <h2>demo.vue图表重绘</h2>
-       data(){
+     
+     data(){
         	this.legend={
         		top:'5',
 		        textStyle:{
@@ -14,7 +15,6 @@ npm i v-charts echarts -S
 		        	fontSize:'0.13rem',
 		        	lineHeight:'0.18rem',
 		        	height:'0.18rem'
-		        	
 		        },
 		        padding:[0,0,20,0],
         	},
