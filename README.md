@@ -55,7 +55,7 @@ npm i v-charts echarts -S
                 }, 
                }, 
         	}
-}
+
 
 
 <h2>结果展示折线图</h2>
