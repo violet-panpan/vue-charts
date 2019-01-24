@@ -1,18 +1,12 @@
 # vue-charts
 #基于echarts的图表组件的使用，其中有折线图，饼图和雷达图
 <h2>安装</h2>
-```
 npm i v-charts echarts -S
-```
 <h2>main.js</h2>
-```
   import VCharts from 'v-charts'
   Vue.use(VCharts);
-```
 <h2>demo.vue图表重绘</h2>
-
-data(){
- //折线图公用legend
+       data(){
         	this.legend={
         		top:'5',
 		        textStyle:{
