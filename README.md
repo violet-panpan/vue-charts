@@ -1,15 +1,16 @@
 # vue-charts
 #基于echarts的图表组件的使用，其中有折线图，饼图和雷达图
 <h2>安装</h2>
-```javaScript
+```
 npm i v-charts echarts -S
 ```
 <h2>main.js</h2>
-```javaScript
+```
   import VCharts from 'v-charts'
   Vue.use(VCharts);
 ```
 <h2>demo.vue图表重绘</h2>
+
 data(){
  //折线图公用legend
         	this.legend={
@@ -63,12 +64,12 @@ data(){
 }
 
 
-#结果展示折线图
+<h2>结果展示折线图</h2>
 <img src="https://github.com/violet-panpan/vue-charts/blob/master/3.png"/>
-#结果展示雷达图
+<h2>结果展示雷达图</h2>
 <img src="https://github.com/violet-panpan/vue-charts/blob/master/1.png"/>
-#结果展示饼图
+<h2>结果展示饼图</h2>
 <img src="https://github.com/violet-panpan/vue-charts/blob/master/2.png"/>
 
-#最终效果
+<h2>最终效果</h2>
 <img src="https://github.com/violet-panpan/vue-charts/blob/master/大数据评分查询结果.jpg"/>
