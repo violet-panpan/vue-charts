@@ -3,8 +3,8 @@
 <h2>安装</h2>
 npm i v-charts echarts -S
 <h2>main.js</h2>
-import VCharts from 'v-charts'
-Vue.use(VCharts);
+<p>import VCharts from 'v-charts'</p>
+<p>Vue.use(VCharts)</p>
 <h2>demo.vue图表重绘</h2>
      
      data(){
